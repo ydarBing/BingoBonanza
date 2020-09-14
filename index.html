@@ -30,12 +30,12 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas"></canvas>
-		<script src="Build/Executable_WebGL.loader.js"></script>
+		<script src="Build/_exeWebGL.loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/Executable_WebGL.data",
-				frameworkUrl: "Build/Executable_WebGL.framework.js",
-				codeUrl: "Build/Executable_WebGL.wasm",
+				dataUrl: "Build/_exeWebGL.data",
+				frameworkUrl: "Build/_exeWebGL.framework.js",
+				codeUrl: "Build/_exeWebGL.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "DefaultCompany",
 				productName: "Simple Bingo",
